@@ -1,0 +1,42 @@
+[2021/02/22 06:06:45][CONFIG][initService]  Starting service...
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Scheme: http://
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Hostname: localhost
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Port: 12345
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Path: /api/billing
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Logger output directory: ./logs/
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Database hostname: localhost
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Database port: 3306
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Database username: root
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Database password provided? true
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Database name: cs122b_030
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Database driver: com.mysql.cj.jdbc.Driver
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Database connection settings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  IDM Scheme: http://
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  IDM Hostname: 0.0.0.0
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  IDM Port: 12346
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  IDM Path: /api/idm
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  IDM Privilege Path: /privilege
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Movies Scheme: http://
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Movies Hostname: 0.0.0.0
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Movies Port: 12347
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Movies Path: /api/movies
+[2021/02/22 06:06:45][CONFIG][currentConfigs]  Movies Thumbnail Path: /thumbnail
+[2021/02/22 06:06:45][CONFIG][connectToDatabase]  Connecting to database...
+[2021/02/22 06:06:45][CONFIG][connectToDatabase]  Database URL: jdbc:mysql://localhost:3306/cs122b_030?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2021/02/22 06:06:47][CONFIG][connectToDatabase]  Connected to database: jdbc:mysql://localhost:3306/cs122b_030?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2021/02/22 06:06:47][CONFIG][initHTTPServer]  Initializing HTTP server...
+[2021/02/22 06:06:47][CONFIG][initHTTPServer]  Building URI from configs...
+[2021/02/22 06:06:47][CONFIG][initHTTPServer]  Final URI: http://localhost:12345/api/billing
+[2021/02/22 06:06:47][CONFIG][initHTTPServer]  Set Jersey resources.
+[2021/02/22 06:06:47][CONFIG][initHTTPServer]  Set Jackson as serializer.
+[2021/02/22 06:06:47][CONFIG][initHTTPServer]  Starting HTTP server...
+[2021/02/22 06:06:49][CONFIG][initHTTPServer]  HTTP server started.
+[2021/02/22 06:06:49][CONFIG][initService]  Service initialized.
+[2021/02/22 06:09:17][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.billing.models.PrivilegeResponseModel
+[2021/02/22 06:09:17][INFO][getPlevel]  get the responseModel 140
+[2021/02/22 06:09:17][INFO][cartInsert]  Insert success
+[2021/02/22 06:09:35][INFO][mapping]  Mapping object: [Ledu.uci.ics.weiched.service.billing.models.ItemPartialModel;
+[2021/02/22 06:14:01][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.billing.models.PrivilegeResponseModel
+[2021/02/22 06:14:01][INFO][getPlevel]  get the responseModel 140
+[2021/02/22 06:14:01][INFO][cartInsert]  Insert success
+[2021/02/22 06:14:13][INFO][mapping]  Mapping object: [Ledu.uci.ics.weiched.service.billing.models.ItemPartialModel;

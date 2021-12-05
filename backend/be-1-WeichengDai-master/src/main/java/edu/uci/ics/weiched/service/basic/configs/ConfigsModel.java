@@ -1,0 +1,29 @@
+package edu.uci.ics.weiched.service.basic.configs;
+
+import java.util.Map;
+
+public class ConfigsModel {
+
+    public Map<String, String> getServiceConfig() {
+        return serviceConfig;
+    }
+
+    public void setServiceConfig(Map<String, String> serviceConfig) {
+        this.serviceConfig = serviceConfig;
+    }
+
+    public Map<String, String> getLoggerConfig() {
+        return loggerConfig;
+    }
+
+    public void setLoggerConfig(Map<String, String> loggerConfig) {
+        this.loggerConfig = loggerConfig;
+    }
+
+    // TODO COMPLETE THIS CLASS
+    private Map<String,String> serviceConfig;
+    private Map<String,String> loggerConfig;
+
+    public ConfigsModel(){}
+
+}

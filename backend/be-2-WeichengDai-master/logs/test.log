@@ -1,0 +1,273 @@
+[2021/02/28 19:18:37][CONFIG][initService]  Starting service...
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Scheme: http://
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Hostname: 0.0.0.0
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Port: 12346
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Path: /api/idm
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Logger output directory: ./logs/
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Database hostname: localhost
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Database port: 3306
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Database username: root
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Database password provided? true
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Database name: cs122b_030
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Database driver: com.mysql.cj.jdbc.Driver
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Database connection settings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Timeout: 600000
+[2021/02/28 19:18:37][CONFIG][currentConfigs]  Database connection settings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2021/02/28 19:18:37][CONFIG][connectToDatabase]  Connecting to database...
+[2021/02/28 19:18:37][CONFIG][connectToDatabase]  Database URL: jdbc:mysql://localhost:3306/cs122b_030?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2021/02/28 19:18:39][CONFIG][connectToDatabase]  Connected to database: jdbc:mysql://localhost:3306/cs122b_030?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2021/02/28 19:18:39][CONFIG][initHTTPServer]  Initializing HTTP server...
+[2021/02/28 19:18:39][CONFIG][initHTTPServer]  Building URI from configs...
+[2021/02/28 19:18:39][CONFIG][initHTTPServer]  Final URI: http://0.0.0.0:12346/api/idm
+[2021/02/28 19:18:39][CONFIG][initHTTPServer]  Set Jersey resources.
+[2021/02/28 19:18:39][CONFIG][initHTTPServer]  Set Jackson as serializer.
+[2021/02/28 19:18:39][CONFIG][initHTTPServer]  Set session timeout and token expiration.
+[2021/02/28 19:18:39][CONFIG][initHTTPServer]  Starting HTTP server...
+[2021/02/28 19:18:40][CONFIG][initHTTPServer]  HTTP server started.
+[2021/02/28 19:18:40][CONFIG][initService]  Service initialized.
+[2021/02/28 19:18:48][INFO][response]  Received post request
+[2021/02/28 19:18:48][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:18:48][INFO][response]  Received post request
+[2021/02/28 19:18:48][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:18:48][INFO][response]  Received post request
+[2021/02/28 19:18:48][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:18:48][INFO][response]  Received post request
+[2021/02/28 19:18:48][INFO][response]  Request:
+{"email":null,"session_id":null}
+[2021/02/28 19:18:48][INFO][response]  Received post request
+[2021/02/28 19:18:48][INFO][response]  Request:
+{"email":"apiGatewayTestLogin@uci.edu","password":"aaaBBB123@"}
+[2021/02/28 19:18:58][INFO][response]  Received post request
+[2021/02/28 19:18:58][INFO][response]  Request:
+{"email":null,"session_id":null}
+[2021/02/28 19:18:58][INFO][response]  Received post request
+[2021/02/28 19:18:58][INFO][response]  Request:
+{"email":"apiGatewayTestRegister@uci.edu","password":"aaaBBB123@"}
+[2021/02/28 19:18:58][INFO][list_users]  getting all users
+[2021/02/28 19:19:40][INFO][response]  Received post request
+[2021/02/28 19:19:40][INFO][response]  Request:
+{"email":null,"session_id":null}
+[2021/02/28 19:19:40][INFO][response]  Received post request
+[2021/02/28 19:19:40][INFO][response]  Request:
+{"email":"apiGatewayTestLogin@uci.edu","password":"aaaBBB123@"}
+[2021/02/28 19:20:54][INFO][response]  Received post request
+[2021/02/28 19:20:54][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:20:54][INFO][response]  Received post request
+[2021/02/28 19:20:54][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:20:54][INFO][response]  Received post request
+[2021/02/28 19:20:54][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:20:54][INFO][response]  Received post request
+[2021/02/28 19:20:54][INFO][response]  Request:
+{"email":null,"session_id":null}
+[2021/02/28 19:20:54][INFO][response]  Received post request
+[2021/02/28 19:20:54][INFO][response]  Request:
+{"email":"apiGatewayTestLogin@uci.edu","password":"aaaBBB123@"}
+[2021/02/28 19:21:05][INFO][response]  Received post request
+[2021/02/28 19:21:05][INFO][response]  Request:
+{"email":null,"session_id":null}
+[2021/02/28 19:21:05][INFO][response]  Received post request
+[2021/02/28 19:21:05][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","password":"aaaBBB123@"}
+[2021/02/28 19:21:05][INFO][list_users]  getting all users
+[2021/02/28 19:21:27][INFO][response]  Received post request
+[2021/02/28 19:21:27][INFO][response]  Request:
+{"email":null,"session_id":null}
+[2021/02/28 19:21:27][INFO][response]  Received post request
+[2021/02/28 19:21:27][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","password":"aaaBBB123@"}
+[2021/02/28 19:21:27][INFO][list_users]  getting all users
+[2021/02/28 19:21:43][INFO][response]  Received post request
+[2021/02/28 19:21:43][INFO][response]  Request:
+{"email":null,"session_id":null}
+[2021/02/28 19:21:43][INFO][response]  Received post request
+[2021/02/28 19:21:43][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","password":"aaaBBB123@"}
+[2021/02/28 19:21:43][WARNING][response]  user have never logged in.
+[2021/02/28 19:23:25][INFO][response]  Received post request
+[2021/02/28 19:23:25][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:26][INFO][response]  Received post request
+[2021/02/28 19:23:26][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:26][INFO][response]  Received post request
+[2021/02/28 19:23:26][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","plevel":5}
+[2021/02/28 19:23:26][INFO][response]  Received post request
+[2021/02/28 19:23:26][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:27][INFO][response]  Received post request
+[2021/02/28 19:23:27][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:27][INFO][response]  Received post request
+[2021/02/28 19:23:27][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:28][INFO][response]  Received post request
+[2021/02/28 19:23:28][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:28][INFO][response]  Received post request
+[2021/02/28 19:23:28][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:29][INFO][response]  Received post request
+[2021/02/28 19:23:29][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:30][INFO][response]  Received post request
+[2021/02/28 19:23:30][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:30][INFO][response]  Received post request
+[2021/02/28 19:23:30][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:31][INFO][response]  Received post request
+[2021/02/28 19:23:31][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:31][INFO][response]  Received post request
+[2021/02/28 19:23:31][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:31][INFO][response]  Received post request
+[2021/02/28 19:23:31][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:32][INFO][response]  Received post request
+[2021/02/28 19:23:32][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:32][INFO][response]  Received post request
+[2021/02/28 19:23:32][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:33][INFO][response]  Received post request
+[2021/02/28 19:23:33][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:33][INFO][response]  Received post request
+[2021/02/28 19:23:33][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:34][INFO][response]  Received post request
+[2021/02/28 19:23:34][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:35][INFO][response]  Received post request
+[2021/02/28 19:23:35][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:35][INFO][response]  Received post request
+[2021/02/28 19:23:35][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:36][INFO][response]  Received post request
+[2021/02/28 19:23:36][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:36][INFO][response]  Received post request
+[2021/02/28 19:23:36][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:37][INFO][response]  Received post request
+[2021/02/28 19:23:37][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:37][INFO][response]  Received post request
+[2021/02/28 19:23:37][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:38][INFO][response]  Received post request
+[2021/02/28 19:23:38][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:38][INFO][response]  Received post request
+[2021/02/28 19:23:38][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:39][INFO][response]  Received post request
+[2021/02/28 19:23:39][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:39][INFO][response]  Received post request
+[2021/02/28 19:23:39][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:40][INFO][response]  Received post request
+[2021/02/28 19:23:40][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:41][INFO][response]  Received post request
+[2021/02/28 19:23:41][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:41][INFO][response]  Received post request
+[2021/02/28 19:23:41][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:42][INFO][response]  Received post request
+[2021/02/28 19:23:42][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:42][INFO][response]  Received post request
+[2021/02/28 19:23:42][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:42][INFO][response]  Received post request
+[2021/02/28 19:23:42][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:42][INFO][response]  Received post request
+[2021/02/28 19:23:42][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","plevel":4}
+[2021/02/28 19:23:43][INFO][response]  Received post request
+[2021/02/28 19:23:43][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:43][INFO][response]  Received post request
+[2021/02/28 19:23:43][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:44][INFO][response]  Received post request
+[2021/02/28 19:23:44][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","plevel":4}
+[2021/02/28 19:23:44][INFO][response]  Received post request
+[2021/02/28 19:23:44][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:44][INFO][response]  Received post request
+[2021/02/28 19:23:44][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:45][INFO][response]  Received post request
+[2021/02/28 19:23:45][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:45][INFO][response]  Received post request
+[2021/02/28 19:23:45][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:46][INFO][response]  Received post request
+[2021/02/28 19:23:46][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:46][INFO][response]  Received post request
+[2021/02/28 19:23:46][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:47][INFO][response]  Received post request
+[2021/02/28 19:23:47][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:48][INFO][response]  Received post request
+[2021/02/28 19:23:48][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:48][INFO][response]  Received post request
+[2021/02/28 19:23:48][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:49][INFO][response]  Received post request
+[2021/02/28 19:23:49][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:49][INFO][response]  Received post request
+[2021/02/28 19:23:49][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:50][INFO][response]  Received post request
+[2021/02/28 19:23:50][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:50][INFO][response]  Received post request
+[2021/02/28 19:23:50][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:51][INFO][response]  Received post request
+[2021/02/28 19:23:51][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:51][INFO][response]  Received post request
+[2021/02/28 19:23:51][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:52][INFO][response]  Received post request
+[2021/02/28 19:23:52][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:52][INFO][response]  Received post request
+[2021/02/28 19:23:52][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","session_id":"5eb88e2dee72c28ed24c7239815d921a6e17e48c212f705b01f9140192b61347d30186a86085e72f2ea7bc71ee7715f3405ffbad746ebb520feda762da3e569a"}
+[2021/02/28 19:23:53][INFO][response]  Received post request
+[2021/02/28 19:23:53][INFO][response]  Request:
+{"email":null,"session_id":null}
+[2021/02/28 19:23:53][INFO][response]  Received post request
+[2021/02/28 19:23:53][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","password":"aaaBBB123@"}
+[2021/02/28 19:23:53][WARNING][response]  user have never logged in.
+[2021/02/28 19:24:03][INFO][response]  Received post request
+[2021/02/28 19:24:03][INFO][response]  Request:
+{"email":null,"session_id":null}
+[2021/02/28 19:24:03][INFO][response]  Received post request
+[2021/02/28 19:24:03][INFO][response]  Request:
+{"email":"apiGatewayTest@uci.edu","password":"aaaBBB123@"}
+[2021/02/28 19:24:03][INFO][list_users]  getting all users

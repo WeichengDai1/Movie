@@ -1,0 +1,11 @@
+{
+  "idmUrl": "http://localhost:12346/api",
+  "idmEPs": {
+    "loginEP": "/idm/login",
+    "registerEP": "/idm/register"
+  },
+  "moviesUrl": "http://localhost:12345/api",
+  "moviesEPs": {
+    "searchEP": "/movies/search"
+  }
+}

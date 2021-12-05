@@ -1,0 +1,13 @@
+{
+  "baseUrl": "http://localhost:12345/api/g",
+  "pollLimit": 10,
+  "gatewayEPs": {
+    "reportEP": "/report"
+  },
+  "idmEPs": {
+    "loginEP": "/idm/login"
+  },
+  "movieEPs": {
+    "searchEP": "/movies/search"
+  }
+}

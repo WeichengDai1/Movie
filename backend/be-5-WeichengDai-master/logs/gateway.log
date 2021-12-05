@@ -1,0 +1,181 @@
+[2021/02/28 19:12:55][CONFIG][initService]  Starting service...
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Scheme: http://
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Hostname: localhost
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Port: 12345
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Path: /api/g
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Logger output directory: ./logs/
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Database hostname: localhost
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Database port: 3306
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Database username: root
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Database password provided? true
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Database name: cs122b_030
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Database driver: com.mysql.cj.jdbc.Driver
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Database connection settings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  IDM Scheme: http://
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  IDM Hostname: localhost
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  IDM Port: 12346
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  IDM Path: /api/idm
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  IDM Endpoints: 
+	/register
+	/login
+	/session
+	/privilege
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Movies Scheme: http://
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Movies Hostname: localhost
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Movies Port: 12347
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Movies Path: /api/movies
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Movies Endpoints: 
+	/search
+	/browse/
+	/get/
+	/thumbnail
+	/people
+	/people/search
+	/people/get/
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Billing Scheme: http://
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Billing Hostname: localhost
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Billing Port: 12348
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Billing Path: /api/billing
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Billing Endpoints: 
+	/cart/insert
+	/cart/update
+	/cart/delete
+	/cart/retrieve
+	/cart/clear
+	/order/place
+	/order/retrieve
+	/order/complete
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Number of Threads: 10
+[2021/02/28 19:12:55][CONFIG][currentConfigs]  Request Delay: 5
+[2021/02/28 19:12:57][CONFIG][initHTTPServer]  Initializing HTTP server...
+[2021/02/28 19:12:57][CONFIG][initHTTPServer]  Building URI from configs...
+[2021/02/28 19:12:57][CONFIG][initHTTPServer]  Final URI: http://localhost:12345/api/g
+[2021/02/28 19:12:57][CONFIG][initHTTPServer]  Set Jersey resources.
+[2021/02/28 19:12:57][CONFIG][initHTTPServer]  Set Jackson as serializer.
+[2021/02/28 19:12:57][CONFIG][initHTTPServer]  Starting HTTP server...
+[2021/02/28 19:12:58][CONFIG][initHTTPServer]  HTTP server started.
+[2021/02/28 19:12:58][CONFIG][initService]  Service initialized.
+[2021/02/28 19:15:49][INFO][register]  redirecting to idm/register
+[2021/02/28 19:15:49][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:15:49][INFO][process]  This is a POST request
+ http://localhost:12346/api/idm/register
+[2021/02/28 19:15:49][INFO][process]  insert into response succeeded
+[2021/02/28 19:18:48][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:18:48][WARNING][Post]  this session is not active
+[2021/02/28 19:18:48][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:18:48][WARNING][Get]  this session is not active
+[2021/02/28 19:18:48][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:18:48][WARNING][Get]  this session is not active
+[2021/02/28 19:18:48][INFO][login]  redirecting to idm/login
+[2021/02/28 19:18:48][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:18:48][INFO][process]  This is a POST request
+ http://localhost:12346/api/idm/login
+[2021/02/28 19:18:48][INFO][process]  insert into response succeeded
+[2021/02/28 19:18:58][INFO][register]  redirecting to idm/register
+[2021/02/28 19:18:58][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:18:58][INFO][process]  This is a POST request
+ http://localhost:12346/api/idm/register
+[2021/02/28 19:18:58][INFO][process]  insert into response succeeded
+[2021/02/28 19:19:40][INFO][login]  redirecting to idm/login
+[2021/02/28 19:19:40][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:19:40][INFO][process]  This is a POST request
+ http://localhost:12346/api/idm/login
+[2021/02/28 19:19:40][INFO][process]  insert into response succeeded
+[2021/02/28 19:20:54][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:20:54][WARNING][Post]  this session is not active
+[2021/02/28 19:20:54][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:20:54][WARNING][Get]  this session is not active
+[2021/02/28 19:20:54][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:20:54][WARNING][Get]  this session is not active
+[2021/02/28 19:20:54][INFO][login]  redirecting to idm/login
+[2021/02/28 19:20:54][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:20:54][INFO][process]  This is a POST request
+ http://localhost:12346/api/idm/login
+[2021/02/28 19:20:54][INFO][process]  insert into response succeeded
+[2021/02/28 19:21:05][INFO][register]  redirecting to idm/register
+[2021/02/28 19:21:05][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:21:05][INFO][process]  This is a POST request
+ http://localhost:12346/api/idm/register
+[2021/02/28 19:21:05][INFO][process]  insert into response succeeded
+[2021/02/28 19:21:27][INFO][register]  redirecting to idm/register
+[2021/02/28 19:21:27][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:21:27][INFO][process]  This is a POST request
+ http://localhost:12346/api/idm/register
+[2021/02/28 19:21:27][INFO][process]  insert into response succeeded
+[2021/02/28 19:21:43][INFO][login]  redirecting to idm/login
+[2021/02/28 19:21:43][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:21:43][INFO][process]  This is a POST request
+ http://localhost:12346/api/idm/login
+[2021/02/28 19:21:43][INFO][process]  insert into response succeeded
+[2021/02/28 19:23:25][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:25][INFO][process]  This is a POST request
+ http://localhost:12348/api/billing/cart/insert
+[2021/02/28 19:23:26][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:26][INFO][process]  insert into response succeeded
+[2021/02/28 19:23:26][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:27][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:27][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:28][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:28][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:29][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:30][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:30][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:31][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:31][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:31][INFO][process]  This is a GET request
+ http://localhost:12347/api/movies/get/
+[2021/02/28 19:23:31][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:31][INFO][process]  insert into response succeeded
+[2021/02/28 19:23:32][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:32][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:33][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:33][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:34][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:35][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:35][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:36][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:36][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:37][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:37][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:38][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:38][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:39][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:39][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:40][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:41][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:41][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:42][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:42][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:42][INFO][process]  This is a GET request
+ http://localhost:12347/api/movies/search
+[2021/02/28 19:23:42][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:43][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:43][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:44][INFO][process]  insert into response succeeded
+[2021/02/28 19:23:44][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:44][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:45][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:45][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:46][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:47][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:47][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:48][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:48][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:49][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:49][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:50][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:50][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:51][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:51][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:52][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:52][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:53][INFO][login]  redirecting to idm/login
+[2021/02/28 19:23:53][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:23:53][INFO][process]  This is a POST request
+ http://localhost:12346/api/idm/login
+[2021/02/28 19:23:53][INFO][process]  insert into response succeeded
+[2021/02/28 19:24:03][INFO][register]  redirecting to idm/register
+[2021/02/28 19:24:03][INFO][mapping]  Mapping object: edu.uci.ics.weiched.service.gateway.models.SessionResponseModel
+[2021/02/28 19:24:03][INFO][process]  This is a POST request
+ http://localhost:12346/api/idm/register
+[2021/02/28 19:24:03][INFO][process]  insert into response succeeded
